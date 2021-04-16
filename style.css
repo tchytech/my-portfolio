@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Train+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.logo img{
+    width: 6.5em;
+    height: 4.5em;
+    margin: 20px 40px;
+
+}
+.box{
+    justify-content: space-between;
+    display: flex;
+    background-image: url('./images/istockphoto-1168876429-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+  background-position: center;
+    
+}
+.nav-items .nav-list{
+    display: inline-block;
+    flex-direction: row;
+    margin: 60px 30px;
+}
+.nav-items .nav-list a{
+    text-decoration: none;
+    color: #f1ec42;
+    font-size: 18px;
+}
+
+
+.nav-list a:hover{
+    background-color: #f1ec42;
+    color: #141414;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all ease 0.5s;
+    font-weight: bold;
+}
+.text-container p span{
+    color:#f1ec42;
+    font-family: 'Train One';
+    letter-spacing: 0.2em;
+    font-size: 30px;
+}
+.text-container p:nth-child(1){
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #fff;
+    font-size: 25px;
+    
+}
+
+.text-container p:nth-child(2){
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: rgb(240, 240, 240);
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.text-container p:nth-child(3){
+    font-family: 'Train One';
+    font-weight: bold;
+    color:#b3b3b3;
+    font-size: 30px;
+    line-height: 30px;
+}
+.text-container {
+    position: absolute;
+    text-align: center;
+    left: 30%;
+    top: 30%;
+    border: 3px solid #f1f1f1;
+    padding: 60px;
+    width: 40%;
+    height: 40%;
+}
+ .text-container .btn{ 
+    color: black;
+    background-color: #f1ec42;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: transparent;
+    box-shadow:  1px 2px 6px #8b8936;
+}
+.text-container .btn:hover{
+    color: yellow;
+    background-color: transparent;
+    transition: all 0.5s;
+    border: 1px solid white;
+    
+}
+.text-container .btn:active{
+    transform: scale(1.1);
+}
+#about{
+    width: 80%;
+    height: 330px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: -7% auto 20px auto;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#about img{
+    height: 250px;
+    border: 1px solid transparent;
+    box-shadow: 1px 2px 6px #cccc;
+    border-radius: 5px;
+}
+.about-textbox{
+    width: 550px;
+}
+.about-textbox p span{
+    color: #b9ca1b;
+    font-family: 'Train One';
+}
+.about-textbox p:nth-child(1){
+    color: rgb(122, 122, 122);
+    font-size: 23px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    line-height: 0px;
+    margin-bottom: 30px;
+}
+.about-textbox p:nth-child(2){
+    color: #3e3d3d;
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    line-height: 5px;
+    margin-bottom: 20px;
+}
+.about-textbox p:nth-child(3), 
+.about-textbox p:nth-child(4){
+    color: #7e7d7d;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+.about-textbox button{
+    width: 120px;
+    height: 40px;
+    color: yellow;
+    background-color: black;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    margin: 20px auto;
+    
+}
+.btn-primary:hover{
+    color:black;
+    background-color: #c9c43b;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#projects{
+    height: 600px;
+    background-color: #fff;
+    padding: 2% 10% 0px 10%;
+   
+}
+#projects p:nth-child(1){
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(99, 98, 98);
+    font-size: 20px;
+    line-height: 0px;
+    margin-top: 30px;
+   
+}
+.project-section p:nth-child(2){
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #3e3d3d;
+    font-size: 15px;
+    line-height: 5px;
+    margin-top: 30px;
+    
+}
+.project-section p:nth-child(3){
+    font-family: 'Roboto';
+    color: #7e7d7d;
+    margin-top: 40px;
+    
+
+}
+.project-section{
+    width: 500px;
+    margin: 50px 0px;
+}
+.box-1, .box-2, .box-3{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+}
+.project-content{
+    display: flex;
+    justify-content: space-between;
+}
+.box-1{
+    background-image: url('./images/download\ \(1\).jpg');
+    
+}
+.box-2{
+    background-image: url('./images/Capture.PNG');
+}
+.box-3{
+    background-image: url('/images/profile-3.jpg');
+}
+.project-content .btn a{
+    align-items: center;
+    position: absolute;
+    text-decoration: none;
+    margin: 10% 8% 0px 8%;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.project-content .btn a:hover{
+    cursor: pointer;
+    background-color: gray;
+    transition: transform 0.3s ease-out;
+}
+#contact{
+    width: 100%;
+    height: 280px;
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+    
+}
+#contact h2{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Train One';
+    border-bottom: 2px solid #f1ec42;
+}
+#contact button{
+    width: 200px;
+    height: 40px;
+    background-color: yellow;
+    outline: none;
+    border: none;
+    font-family: 14px;
+    font-weight: bold;
+    margin: 40px;
+    border-radius: 5px;
+}
+#contact button:hover{
+    background-color: gray;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: #191919;
+    font-family: 'Roboto';
+    line-height: 10px;
+}
+footer p:nth-child(2){
+    font-size: 18px;
+    color: #7e7d7d;
+    width: 600px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 80px;
+}
+.icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: #f1ec42;
+}
+.icons{
+    display: flex;
+}
+.icons i{
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background-color: #f1ec42;
+
+}
+.icons a:hover, .social-b i {
+    background-color: #000;
+    color: rgb(0, 162, 255);;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+.icons a:hover i{
+   background-color: #000;
+    color: rgb(0, 162, 255);
+    transition: all ease 0.5s;
+}
+.social-b{
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+.social-b a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    line-height: 0px;
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+.social-b i{
+    font-size: 20px;
+    background-color: transparent;
+}
